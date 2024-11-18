@@ -1,7 +1,7 @@
 import 'package:fire_base_sample/controller/login_screen_controller.dart';
 import 'package:fire_base_sample/controller/registration_screen_controller.dart';
 import 'package:fire_base_sample/firebase_options.dart';
-import 'package:fire_base_sample/splash_screen/splash_screen.dart';
+import 'package:fire_base_sample/view/splash_screen/splash_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';

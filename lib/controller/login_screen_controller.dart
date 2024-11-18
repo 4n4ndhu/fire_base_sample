@@ -13,6 +13,8 @@ class LoginScreenController with ChangeNotifier {
       final credential = await FirebaseAuth.instance
           .signInWithEmailAndPassword(email: email, password: password);
       log(credential.user?.email.toString() ?? "no data");
+      AppUtils.showOnetimeSnackbar(
+          context: context, bg: Colors.green, message: "login successfull");
     } on FirebaseAuthException catch (e) {
       if (e.code == 'invalid-email') {
         AppUtils.showOnetimeSnackbar(

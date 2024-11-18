@@ -1,5 +1,5 @@
 import 'package:fire_base_sample/controller/registration_screen_controller.dart';
-import 'package:fire_base_sample/login_screen/login_screeen.dart';
+import 'package:fire_base_sample/view/login_screen/login_screeen.dart';
 import 'package:fire_base_sample/main.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
